@@ -5,3 +5,7 @@
 最终页面展示的是从今日头条爬取的当天热点新闻，效果图如下（只截取了第一条新闻，使用的是火狐浏览器，不同浏览器可能效果不一样）。
 
 ![](https://github.com/DLily0129/Headlines/raw/master/Screenshot/screenshot.PNG)
+
+具体笔记见headline.ipynb
+
+headlines.py源文件中也有部分注释
