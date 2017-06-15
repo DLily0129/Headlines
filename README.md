@@ -1,11 +1,13 @@
 # Headlines
 
-初学Flask，实现了一个简易版的今日头条，其中只涉及到爬虫知识与Flask的模版机制，没有涉及到连接数据库或session等更加复杂功能，适合初学者。
+* 初学Flask，实现了一个简易版的今日头条，其中只涉及到爬虫知识与Flask的模版机制，没有涉及到连接数据库或session等更加复杂功能，适合初学者。
 
-最终页面展示的是从今日头条爬取的当天热点新闻，效果图如下（只截取了第一条新闻，使用的是火狐浏览器，不同浏览器可能效果不一样）。
+* 最终页面展示的是从今日头条爬取的当天热点新闻，效果图如下（只截取了第一条新闻，使用火狐浏览器，不同浏览器可能效果不一样）。
 
 ![](https://github.com/DLily0129/Headlines/raw/master/Screenshot/screenshot.PNG)
 
-具体笔记见headline.ipynb
+* 点击图片可以跳转到今日头条的详情页面
 
-headlines.py源文件中也有部分注释
+* 具体笔记见headline.ipynb
+
+* headlines.py源文件中也有部分注释
