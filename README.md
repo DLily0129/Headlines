@@ -4,5 +4,4 @@
 
 最终页面展示的是从今日头条爬取的当天热点新闻。
 
-![]
-(https://github.com/DLily0129/Headlines/raw/master/Screenshot/screenshot.PNG)
+![](https://github.com/DLily0129/Headlines/raw/master/Screenshot/screenshot.PNG)
