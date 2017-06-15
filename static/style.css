@@ -1,0 +1,22 @@
+html {
+    font-family: "Times New Roman";
+    background: white;
+}
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#inner-header{
+    font-size: 60px;
+    text-align:center;
+}
+#info-header{
+    font-family:"宋体";
+    font-size: 20px;
+    text-align:center;
+}
+.main{
+    font-family:"微软雅黑";
+    font-size: 25px;
+    text-align:center;
+}

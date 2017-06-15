@@ -1,0 +1,32 @@
+
+<html>
+    <head>
+        <link href="{{ url_for('static', filename='style.css', _external=True)}}" rel="stylesheet">
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+         <title>简易版今日头条</title>
+    </head>
+    <body>
+        <div id="header">
+            <div id="inner-header">
+                今日头条
+            </div>
+            <div id="info-header">
+                {% if city %}
+                    <span> {{city}}</span>
+                {% endif %}
+                {% if time %}
+                    <span> {{time.tm_year}}年{{time.tm_mon}}月{{time.tm_mday}}日</span>
+                {% endif %}
+            </div>
+        </div>
+        <div class="main">
+        {% for each_data in data_list %}
+        <a target="_blank" href="{{each_data.display_url}}">
+            <img alt="" src="{{each_data.image_url}}" width="500" height="300"> </a>
+        <p class="title">{{each_data.title}}</p>
+        {% endfor %}
+        </div>
+    </body>
+</html>
+
